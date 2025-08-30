@@ -159,7 +159,7 @@ const Signup = () => {
               : "bg-indigo-500 hover:bg-indigo-600"
           }`}
         >
-          {loading ? <ClipLoader size={20} color="#fff" /> : "Login"}
+          {loading ? <ClipLoader size={20} color="#fff" /> : "Signup"}
         </button>
 
         <div className="text-center text-sm">
@@ -168,7 +168,7 @@ const Signup = () => {
             className="text-blue-600 cursor-pointer hover:underline"
             onClick={() => navigate("/user/login")}
           >
-            Signup
+            Login
           </span>
         </div>
       </form>
